@@ -6,10 +6,11 @@ import urllib.request
 
 
 
-def getPlayerDataFrames(team_id):
+def getTeamStats(team_id):
     team = team_id.upper()
     url = "https://www.basketball-reference.com/teams/" + team + "/2019.html"
-    print(url)
+    # print(url)
+    # print()
 
     with urllib.request.urlopen(url) as response:
         # UTF-8 doesn't support some initial character on the websites for some reason!
@@ -32,6 +33,3 @@ def getPlayerDataFrames(team_id):
     misc_header = misc_df.columns.values.tolist()
 
     return stats_df, stats_header, misc_df, misc_header
-
-stuff = getPlayerDataFrames('GSW')
-print(stuff[0])
