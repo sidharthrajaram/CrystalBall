@@ -4,7 +4,7 @@ forecasting game outcomes
 February 9, 2019 Forecast
 
 | Home        | Away           | Winner + %  |
-|:-------------:|:-------------:|: -----:|
+|:-------------:|:-------------:|:-----:|
 | `UTA`      | `SAS` | UTA 70.6% |
 | `ATL`      | `CHO` | ATL 66.1% |
 | `NYK`      | `TOR` | TOR 62.7% |
