@@ -2,7 +2,7 @@
 
 ### Total Results (Started Feb. 9, 2019)
 
-| Total Games        | Games Predicted Correctly | % |
+| Total Games        | Games Predicted Correctly | Accuracy |
 |:-------------:|:-------------:|:-----:|
 | 1     | 1 | 100% |
 
