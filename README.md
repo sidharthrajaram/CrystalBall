@@ -1,18 +1,24 @@
 # nbaszn
-forecasting game outcomes
 
-February 9, 2019 Forecast
+### Total Results (Started Feb. 9, 2019)
 
-| Home        | Away           | Winner + %  |
+| Total Games        | Games Predicted Correctly | % |
 |:-------------:|:-------------:|:-----:|
-| `UTA`      | `SAS` | UTA 70.6% |
-| `ATL`      | `CHO` | ATL 66.1% |
-| `NYK`      | `TOR` | TOR 62.7% |
-| `BOS`      | `LAC` | LAC 56.3% |
-| `CHI`      | `WAS` | WAS 66.5% |
-| `MEM`      | `NOP` | NOP 69.4% |
-| `HOU`      | `OKC` | HOU 72.7% |
-| `MIL`      | `ORL` | MIL 84.3% |
+| 1     | 1 | 100% |
+
+### Today's Forecast - 2.9.19
+
+| Home        | Away           | Winner + %  | Real Winner  |
+|:-------------:|:-------------:|:-----:|:-------------:|
+| `UTA`      | `SAS` | UTA 70.6% | UTA 125-105 |
+| `IND`      | `CLE` | IND 72.1% | TBD |
+| `ATL`      | `CHO` | ATL 66.1% | TBD |
+| `NYK`      | `TOR` | TOR 62.7% | TBD |
+| `BOS`      | `LAC` | LAC 56.3% | TBD |
+| `CHI`      | `WAS` | WAS 66.5% | TBD |
+| `MEM`      | `NOP` | NOP 69.4% | TBD |
+| `HOU`      | `OKC` | HOU 72.7% | TBD |
+| `MIL`      | `ORL` | MIL 84.3% | TBD |
 
 
 
