@@ -22,9 +22,14 @@ def getTeamStats(team_id):
     soup = BeautifulSoup(content, 'html.parser')
     tables = soup.findAll('table')
 
-    #change dep on website format
-    stats_table = tables[3]
-    misc_table = tables[4]
+    test_df = pd.read_html(str(tables[3]))[0]
+
+    if len(test_df.index) != 8:
+        stats_table = tables[2]
+        misc_table = tables[3]
+    else:
+        stats_table = tables[3]
+        misc_table = tables[4]
 
     stats_df = pd.read_html(str(stats_table))[0]
     misc_df = pd.read_html(str(misc_table))[0]
@@ -33,3 +38,7 @@ def getTeamStats(team_id):
     misc_header = misc_df.columns.values.tolist()
 
     return stats_df, stats_header, misc_df, misc_header
+
+if __name__ == "__main__":
+    stuff = getTeamStats('POR')
+    print(stuff[0])
