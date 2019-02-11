@@ -4,17 +4,17 @@
 
 | Total Games        | Games Predicted Correctly | Accuracy |
 |:-------------:|:-------------:|:-----:|
-| 9     | 5 | 55.5% |
+| 14     | 9 | 64.3% |
 
 ### 2.10.19 Forecast
 
 | Home        | Away           | Winner + %  | Prediction Timestamp | Real Winner |
 |:-------------:|:-------------:|:-----:|:-----:|:-------------:|
-| `DAL`      | `POR` | DAL 63.3% | 2/9 20:45 | TBD |
-| `PHI`      | `LAL` | PHI 89.3% | 2/9 20:46 | TBD |
-| `SAC`      | `PHO` | SAC 70.0% | 2/9 20:46 | TBD |
-| `ATL`      | `ORL` | ATL 83.8% | 2/9 20:47 | TBD |
-| `GSW`      | `MIA` | GSW 86.4% | 2/9 20:47 | TBD |
+| `DAL`      | `POR` | DAL 63.3% | 2/9 20:45 | DAL 102-101 |
+| `PHI`      | `LAL` | PHI 89.3% | 2/9 20:46 | PHI 143-120 |
+| `SAC`      | `PHO` | SAC 70.0% | 2/9 20:46 | SAC 117-104 |
+| `ATL`      | `ORL` | ATL 83.8% | 2/9 20:47 | ORL 124-108 |
+| `GSW`      | `MIA` | GSW 86.4% | 2/9 20:47 | GSW 120-118 |
 
 ### 2.9.19 Forecast
 
