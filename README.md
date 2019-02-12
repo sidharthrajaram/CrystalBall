@@ -6,6 +6,16 @@
 |:-------------:|:-------------:|:-----:|
 | 23     | 17 | 73.9% |
 
+### 2.12.19 Forecast
+
+| Home        | Away           | Winner + %  | Prediction Timestamp | Real Winner |
+|:-------------:|:-------------:|:-----:|:-----:|:-------------:|
+| `ATL`      | `LAL` | ATL 68.9% | 2/11 21:47 | TBD |
+| `PHI`      | `BOS` | PHI 86.7% | 2/11 21:47 | TBD |
+| `MEM`      | `SAS` | SAS 56.1% | 2/11 21:48 | TBD |
+| `NOP`      | `ORL` | NOP 89.6% | 2/11 21:48 | TBD |
+| `GSW`      | `UTA` | GSW 72.9% | 2/11 21:49 | TBD |
+
 ### 2.11.19 Forecast
 
 | Home        | Away           | Winner + %  | Prediction Timestamp | Real Winner |
