@@ -4,21 +4,21 @@
 
 | Total Games        | Games Predicted Correctly | Accuracy |
 |:-------------:|:-------------:|:-----:|
-| 14     | 9 | 64.3% |
+| 23     | 17 | 73.9% |
 
 ### 2.11.19 Forecast
 
 | Home        | Away           | Winner + %  | Prediction Timestamp | Real Winner |
 |:-------------:|:-------------:|:-----:|:-----:|:-------------:|
-| `CLE`      | `NYK` | CLE 56.7% | 2/10 20:00 | TBD |
-| `DET`      | `WAS` | DET 53.5% | 2/10 20:01 | TBD |
-| `IND`      | `CHO` | IND 58.5% | 2/10 20:01 | TBD |
-| `TOR`      | `BRK` | TOR 64.6% | 2/10 20:03 | TBD |
-| `CHI`      | `MIL` | MIL 71.2% | 2/10 20:04 | TBD |
-| `HOU`      | `DAL` | HOU 69.6% | 2/10 20:04 | TBD |
-| `MIN`      | `LAC` | LAC 54.4% | 2/10 20:04 | TBD |
-| `OKC`      | `POR` | OKC 59.5% | 2/10 20:05 | TBD |
-| `DEN`      | `MIA` | DEN 78.6% | 2/10 20:05 | TBD |
+| `CLE`      | `NYK` | CLE 56.7% | 2/10 20:00 | CLE 107-2014 |
+| `DET`      | `WAS` | DET 53.5% | 2/10 20:01 | DET 121-112 |
+| `IND`      | `CHO` | IND 58.5% | 2/10 20:01 | IND 99-90 |
+| `TOR`      | `BRK` | TOR 64.6% | 2/10 20:03 | TOR 127-125 |
+| `CHI`      | `MIL` | MIL 71.2% | 2/10 20:04 | MIL 112-99 |
+| `HOU`      | `DAL` | HOU 69.6% | 2/10 20:04 | HOU 120-104 |
+| `MIN`      | `LAC` | LAC 54.4% | 2/10 20:04 | MIN 130-120 |
+| `OKC`      | `POR` | OKC 59.5% | 2/10 20:05 | OKC 120-111 |
+| `DEN`      | `MIA` | DEN 78.6% | 2/10 20:05 | DEN 103-87 |
 
 ### 2.10.19 Forecast
 
