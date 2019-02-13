@@ -4,17 +4,33 @@
 
 | Total Games        | Games Predicted Correctly | Accuracy |
 |:-------------:|:-------------:|:-----:|
-| 23     | 17 | 73.9% |
+| 28     | 20 | 71.4% |
+
+### 2.13.19 Forecast
+
+| Home        | Away           | Winner + %  | Prediction Timestamp | Real Winner |
+|:-------------:|:-------------:|:-----:|:-----:|:-------------:|
+| `CLE`      | `BRK` | BRK 60.7% | 2/12 22:17 | TBD |
+| `IND`      | `MIL` | MIL 51.7% | 2/12 22:17 | TBD |
+| `BOS`      | `DET` | BOS 66.5% | 2/12 22:18 | TBD |
+| `NYK`      | `PHI` | PHI 80.1% | 2/12 22:18 | TBD |
+| `TOR`      | `WAS` | TOR 66.0% | 2/12 22:19 | TBD |
+| `CHI`      | `MEM` | MEM 50.3% | 2/12 22:19 | TBD |
+| `MIN`      | `HOU` | MIN 54.7% | 2/12 22:20 | TBD |
+| `DAL`      | `MIA` | DAL 78.1% | 2/12 22:20 | TBD |
+| `DEN`      | `SAC` | DEN 72.6% | 2/12 22:20 | TBD |
+| `POR`      | `GSW` | GSW 52.4% | 2/12 22:21 | TBD |
+| `LAC`      | `PHO` | LAC 89.3% | 2/12 22:21 | TBD |
 
 ### 2.12.19 Forecast
 
 | Home        | Away           | Winner + %  | Prediction Timestamp | Real Winner |
 |:-------------:|:-------------:|:-----:|:-----:|:-------------:|
-| `ATL`      | `LAL` | ATL 68.9% | 2/11 21:47 | TBD |
-| `PHI`      | `BOS` | PHI 86.7% | 2/11 21:47 | TBD |
-| `MEM`      | `SAS` | SAS 56.1% | 2/11 21:48 | TBD |
-| `NOP`      | `ORL` | NOP 89.6% | 2/11 21:48 | TBD |
-| `GSW`      | `UTA` | GSW 72.9% | 2/11 21:49 | TBD |
+| `ATL`      | `LAL` | ATL 68.9% | 2/11 21:47 | ATL 117-113 |
+| `PHI`      | `BOS` | PHI 86.7% | 2/11 21:47 | BOS 112-109 |
+| `MEM`      | `SAS` | SAS 56.1% | 2/11 21:48 | SAS 108-107 |
+| `NOP`      | `ORL` | NOP 89.6% | 2/11 21:48 | ORL 118-88 |
+| `GSW`      | `UTA` | GSW 72.9% | 2/11 21:49 | GSW 115-108 |
 
 ### 2.11.19 Forecast
 
