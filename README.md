@@ -4,15 +4,15 @@
 
 | Total Games        | Games Predicted Correctly | Accuracy |
 |:-------------:|:-------------:|:-----:|
-| 39     | 28 | 71.8% |
+| 42     | 29 | 69.0% |
 
 ### 2.14.19 Forecast
 
 | Home        | Away           | Winner + %  | Prediction Timestamp | Real Winner |
 |:-------------:|:-------------:|:-----:|:-----:|:-------------:|
-| `ORL`      | `CHO` | CHO 52.5% | 2/13 22:09 | TBD |
-| `ATL`      | `NYK` | ATL 83.0% | 2/13 22:09 | TBD |
-| `NOP`      | `OKC` | NOP 68.5% | 2/13 22:10 | TBD |
+| `ORL`      | `CHO` | CHO 52.5% | 2/13 22:09 | ORL 127-89 |
+| `ATL`      | `NYK` | ATL 83.0% | 2/13 22:09 | NYK 106-91 |
+| `NOP`      | `OKC` | NOP 68.5% | 2/13 22:10 | NOP 131-122 |
 
 ### 2.13.19 Forecast
 
