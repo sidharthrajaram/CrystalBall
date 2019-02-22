@@ -4,18 +4,32 @@
 
 | Total Games        | Games Predicted Correctly | Accuracy |
 |:-------------:|:-------------:|:-----:|
-| 42     | 29 | 69.0% |
+| 48     | 33 | 68.8% |
+
+### 2.22.19 Forecast
+
+| Home        | Away           | Winner + %  | Prediction Timestamp | Real Winner |
+|:-------------:|:-------------:|:-----:|:-----:|:-------------:|
+| `CHO`      | `WAS` | CHO 58.7% | 2/21 22:14 | TBD |
+| `IND`      | `NOP` | NOP 59.6% | 2/21 22:14 | TBD |
+| `ORL`      | `CHI` | ORL 68.4% | 2/21 22:14 | TBD |
+| `TOR`      | `SAS` | TOR 65.3% | 2/21 22:15 | TBD |
+| `ATL`      | `DET` | ATL 70.9% | 2/21 22:15 | TBD |
+| `NYK`      | `MIN` | MIN 58.9% | 2/21 22:16 | TBD |
+| `MEM`      | `LAC` | LAC 75.0% | 2/21 22:16 | TBD |
+| `DAL`      | `DEN` | DAL 63.1% | 2/21 22:16 | TBD |
+| `OKC`      | `UTA` | OKC 58.6% | 2/21 22:17 | TBD |
 
 ### 2.21.19 (All Star Break 2.15 - 2.20) Forecast
 
 | Home        | Away           | Winner + %  | Prediction Timestamp | Real Winner |
 |:-------------:|:-------------:|:-----:|:-----:|:-------------:|
-| `CLE`      | `PHO` | CLE 59.0% | 2/15 18:06 | TBD |
-| `PHI`      | `MIA` | PHI 91.8% | 2/15 18:06 | TBD |
-| `BRK`      | `POR` | BRK 66.9% | 2/15 18:06 | TBD |
-| `MIL`      | `BOS` | MIL 68.0% | 2/15 18:07 | TBD |
-| `GSW`      | `SAC` | GSW 80.4% | 2/15 18:08 | TBD |
-| `LAL`      | `HOU` | HOU 57.1% | 2/15 18:09 | TBD |
+| `CLE`      | `PHO` | CLE 59.0% | 2/15 18:06 | CLE 111-98 |
+| `PHI`      | `MIA` | PHI 91.8% | 2/15 18:06 | PHI 106-102 |
+| `BRK`      | `POR` | BRK 66.9% | 2/15 18:06 | POR 113-99 |
+| `MIL`      | `BOS` | MIL 68.0% | 2/15 18:07 | MIL 98-97 |
+| `GSW`      | `SAC` | GSW 80.4% | 2/15 18:08 | GSW 125-123 |
+| `LAL`      | `HOU` | HOU 57.1% | 2/15 18:09 | LAL 111-106 |
 
 ### 2.14.19 Forecast
 
