@@ -6,6 +6,24 @@
 |:-------------:|:-------------:|:-----:|
 | 57     | 38 | 66.7% |
 
+### 2.23.19 Forecast
+
+| Home        | Away           | Winner + %  | Prediction Timestamp | Real Winner |
+|:-------------:|:-------------:|:-----:|:-----:|:-------------:|
+| `PHI`      | `POR` | PHI 83.8% | 2/23 11:57 | TBD |
+| `ATL`      | `PHO` | ATL 74.8% | 2/23 11:57 | TBD |
+| `CHO`      | `BRK` | CHO 51.2% | 2/23 11:57 | TBD |
+| `CLE`      | `MEM` | CLE 56.7% | 2/23 12:01 | TBD |
+| `WAS`      | `IND` | WAS 70.5% | 2/23 12:14 | TBD |
+| `NOP`      | `LAL` | NOP 77.1% | 2/23 12:15 | TBD |
+| `MIA`      | `DET` | MIA 54.9% | 2/23 12:15 | TBD |
+| `CHI`      | `BOS` | BOS 62.4% | 2/23 12:18 | TBD |
+| `OKC`      | `SAC` | OKC 74.1% | 2/23 12:19 | TBD |
+| `MIL`      | `MIN` | MIl 60.3% | 2/23 12:19 | TBD |
+| `GSW`      | `HOU` | GSW 69.4% | 2/23 12:19 | TBD |
+| `UTA`      | `DAL` | UTA 67.6% | 2/23 12:20 | TBD |
+
+
 ### 2.22.19 Forecast
 
 | Home        | Away           | Winner + %  | Prediction Timestamp | Real Winner |
