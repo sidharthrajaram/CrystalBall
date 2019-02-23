@@ -4,21 +4,21 @@
 
 | Total Games        | Games Predicted Correctly | Accuracy |
 |:-------------:|:-------------:|:-----:|
-| 48     | 33 | 68.8% |
+| 57     | 38 | 66.7% |
 
 ### 2.22.19 Forecast
 
 | Home        | Away           | Winner + %  | Prediction Timestamp | Real Winner |
 |:-------------:|:-------------:|:-----:|:-----:|:-------------:|
-| `CHO`      | `WAS` | CHO 58.7% | 2/21 22:14 | TBD |
-| `IND`      | `NOP` | NOP 59.6% | 2/21 22:14 | TBD |
-| `ORL`      | `CHI` | ORL 68.4% | 2/21 22:14 | TBD |
-| `TOR`      | `SAS` | TOR 65.3% | 2/21 22:15 | TBD |
-| `ATL`      | `DET` | ATL 70.9% | 2/21 22:15 | TBD |
-| `NYK`      | `MIN` | MIN 58.9% | 2/21 22:16 | TBD |
-| `MEM`      | `LAC` | LAC 75.0% | 2/21 22:16 | TBD |
-| `DAL`      | `DEN` | DAL 63.1% | 2/21 22:16 | TBD |
-| `OKC`      | `UTA` | OKC 58.6% | 2/21 22:17 | TBD |
+| `CHO`      | `WAS` | CHO 58.7% | 2/21 22:14 | CHO 123-110 |
+| `IND`      | `NOP` | NOP 59.6% | 2/21 22:14 | IND 126-111 |
+| `ORL`      | `CHI` | ORL 68.4% | 2/21 22:14 | CHI 110-109 |
+| `TOR`      | `SAS` | TOR 65.3% | 2/21 22:15 | TOR 120-117 |
+| `ATL`      | `DET` | ATL 70.9% | 2/21 22:15 | DET 125-122 |
+| `NYK`      | `MIN` | MIN 58.9% | 2/21 22:16 | MIN 115-104 |
+| `MEM`      | `LAC` | LAC 75.0% | 2/21 22:16 | LAC 112-106 |
+| `DAL`      | `DEN` | DAL 63.1% | 2/21 22:16 | DEN 114-104 |
+| `OKC`      | `UTA` | OKC 58.6% | 2/21 22:17 | OKC 148-147 |
 
 ### 2.21.19 (All Star Break 2.15 - 2.20) Forecast
 
