@@ -4,24 +4,32 @@
 
 | Total Games        | Games Predicted Correctly | Accuracy |
 |:-------------:|:-------------:|:-----:|
-| 57     | 38 | 66.7% |
+| 69     | 43 | 62.3% |
+
+### 2.24.19 Forecast
+
+| Home        | Away           | Winner + %  | Prediction Timestamp | Real Winner |
+|:-------------:|:-------------:|:-----:|:-----:|:-------------:|
+| `TOR`      | `ORL` | TOR 84.3% | 2/24 11:51 | TBD |
+| `DEN`      | `LAC` | DEN 50.7% | 2/24 11:52 | TBD |
+| `NYK`      | `SAS` | SAS 56.7% | 2/24 11:52 | TBD |
 
 ### 2.23.19 Forecast
 
 | Home        | Away           | Winner + %  | Prediction Timestamp | Real Winner |
 |:-------------:|:-------------:|:-----:|:-----:|:-------------:|
-| `PHI`      | `POR` | PHI 83.8% | 2/23 11:57 | TBD |
-| `ATL`      | `PHO` | ATL 74.8% | 2/23 11:57 | TBD |
-| `CHO`      | `BRK` | CHO 51.2% | 2/23 11:57 | TBD |
-| `CLE`      | `MEM` | CLE 56.7% | 2/23 12:01 | TBD |
-| `WAS`      | `IND` | WAS 70.5% | 2/23 12:14 | TBD |
-| `NOP`      | `LAL` | NOP 77.1% | 2/23 12:15 | TBD |
-| `MIA`      | `DET` | MIA 54.9% | 2/23 12:15 | TBD |
-| `CHI`      | `BOS` | BOS 62.4% | 2/23 12:18 | TBD |
-| `OKC`      | `SAC` | OKC 74.1% | 2/23 12:19 | TBD |
-| `MIL`      | `MIN` | MIl 60.3% | 2/23 12:19 | TBD |
-| `GSW`      | `HOU` | GSW 69.4% | 2/23 12:19 | TBD |
-| `UTA`      | `DAL` | UTA 67.6% | 2/23 12:20 | TBD |
+| `PHI`      | `POR` | PHI 83.8% | 2/23 11:57 | POR 130-115 |
+| `ATL`      | `PHO` | ATL 74.8% | 2/23 11:57 | ATL 120-112 |
+| `CHO`      | `BRK` | CHO 51.2% | 2/23 11:57 | BRK 117-115 |
+| `CLE`      | `MEM` | CLE 56.7% | 2/23 12:01 | CLE 112-107 |
+| `WAS`      | `IND` | WAS 70.5% | 2/23 12:14 | IND 119-112 |
+| `NOP`      | `LAL` | NOP 77.1% | 2/23 12:15 | NOP 128-115 |
+| `MIA`      | `DET` | MIA 54.9% | 2/23 12:15 | DET 119-96 |
+| `CHI`      | `BOS` | BOS 62.4% | 2/23 12:18 | CHI 126-116 |
+| `OKC`      | `SAC` | OKC 74.1% | 2/23 12:19 | SAC 119-116 |
+| `MIL`      | `MIN` | MIl 60.3% | 2/23 12:19 | MIL 140-128 |
+| `GSW`      | `HOU` | GSW 69.4% | 2/23 12:19 | HOU 118-112 |
+| `UTA`      | `DAL` | UTA 67.6% | 2/23 12:20 | UTA 125-109 |
 
 
 ### 2.22.19 Forecast
