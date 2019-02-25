@@ -1,5 +1,9 @@
 # nbaszn
 
+###### working on documentation
+###### trying to implement quarter-by-quarter and player stats
+
+
 ### Total Results (Started Feb. 9, 2019)
 
 | Total Games        | Games Predicted Correctly | Accuracy |
