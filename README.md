@@ -4,15 +4,33 @@
 
 | Total Games        | Games Predicted Correctly | Accuracy |
 |:-------------:|:-------------:|:-----:|
-| 69     | 43 | 62.3% |
+| 72     | 44 | 61.1% |
+
+### 2.25.19 Forecast
+
+| Home        | Away           | Winner + %  | Prediction Timestamp | Real Winner |
+|:-------------:|:-------------:|:-----:|:-----:|:-------------:|
+| `CHO`      | `GSW` | GSW 59.4% | 2/25 11:59 | TBD |
+| `CLE`      | `POR` | POR 60.7% | 2/25 11:59 | TBD |
+| `DET`      | `IND` | DET 63.8% | 2/25 11:59 | TBD |
+| `BRK`      | `SAS` | BRK 68.7% | 2/25 12:00 | TBD |
+| `MIA`      | `PHO` | MIA 62.9% | 2/25 12:00 | TBD |
+| `CHI`      | `MIL` | MIL 66.2% | 2/25 12:01 | TBD |
+| `HOU`      | `ATL` | HOU 71.6% | 2/25 12:01 | TBD |
+| `MEM`      | `LAL` | MEM 52.7% | 2/25 12:01 | TBD |
+| `MIN`      | `SAC` | MIN 72.5% | 2/25 12:02 | TBD |
+| `NOP`      | `PHI` | PHI 55.0% | 2/25 12:02 | TBD |
+| `LAC`      | `DAL` | LAC 79.2% | 2/25 12:02 | TBD |
+
+
 
 ### 2.24.19 Forecast
 
 | Home        | Away           | Winner + %  | Prediction Timestamp | Real Winner |
 |:-------------:|:-------------:|:-----:|:-----:|:-------------:|
-| `TOR`      | `ORL` | TOR 84.3% | 2/24 11:51 | TBD |
-| `DEN`      | `LAC` | DEN 50.7% | 2/24 11:52 | TBD |
-| `NYK`      | `SAS` | SAS 56.7% | 2/24 11:52 | TBD |
+| `TOR`      | `ORL` | TOR 84.3% | 2/24 11:51 | ORL |
+| `DEN`      | `LAC` | DEN 50.7% | 2/24 11:52 | DEN |
+| `NYK`      | `SAS` | SAS 56.7% | 2/24 11:52 | NYK |
 
 ### 2.23.19 Forecast
 
