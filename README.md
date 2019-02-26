@@ -10,6 +10,14 @@
 |:-------------:|:-------------:|:-----:|
 | 83     | 54 | 65.1% |
 
+### 2.26.19 Forecast
+
+| Home        | Away           | Winner + %  | Prediction Timestamp | Real Winner |
+|:-------------:|:-------------:|:-----:|:-----:|:-------------:|
+| `NYK`      | `ORL` | NYK 62.2% | 2/26 8:11 | ORL |
+| `TOR`      | `BOS` | TOR 74.5% | 2/26 8:12 | DEN |
+| `DEN`      | `OKC` | DEN 65.7% | 2/26 8:12 | NYK |
+
 ### 2.25.19 Forecast
 
 | Home        | Away           | Winner + %  | Prediction Timestamp | Real Winner |
