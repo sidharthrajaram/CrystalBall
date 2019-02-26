@@ -8,23 +8,23 @@
 
 | Total Games        | Games Predicted Correctly | Accuracy |
 |:-------------:|:-------------:|:-----:|
-| 72     | 44 | 61.1% |
+| 83     | 54 | 65.1% |
 
 ### 2.25.19 Forecast
 
 | Home        | Away           | Winner + %  | Prediction Timestamp | Real Winner |
 |:-------------:|:-------------:|:-----:|:-----:|:-------------:|
-| `CHO`      | `GSW` | GSW 59.4% | 2/25 11:59 | TBD |
-| `CLE`      | `POR` | POR 60.7% | 2/25 11:59 | TBD |
-| `DET`      | `IND` | DET 63.8% | 2/25 11:59 | TBD |
-| `BRK`      | `SAS` | BRK 68.7% | 2/25 12:00 | TBD |
-| `MIA`      | `PHO` | MIA 62.9% | 2/25 12:00 | TBD |
-| `CHI`      | `MIL` | MIL 66.2% | 2/25 12:01 | TBD |
-| `HOU`      | `ATL` | HOU 71.6% | 2/25 12:01 | TBD |
-| `MEM`      | `LAL` | MEM 52.7% | 2/25 12:01 | TBD |
-| `MIN`      | `SAC` | MIN 72.5% | 2/25 12:02 | TBD |
-| `NOP`      | `PHI` | PHI 55.0% | 2/25 12:02 | TBD |
-| `LAC`      | `DAL` | LAC 79.2% | 2/25 12:02 | TBD |
+| `CHO`      | `GSW` | GSW 59.4% | 2/25 11:59 | GSW 121-110 |
+| `CLE`      | `POR` | POR 60.7% | 2/25 11:59 | POR 123-110 |
+| `DET`      | `IND` | DET 63.8% | 2/25 11:59 | DET 113-109 |
+| `BRK`      | `SAS` | BRK 68.7% | 2/25 12:00 | BRK 101-89 |
+| `MIA`      | `PHO` | MIA 62.9% | 2/25 12:00 | PHO 124-121 |
+| `CHI`      | `MIL` | MIL 66.2% | 2/25 12:01 | MIL 117-106 |
+| `HOU`      | `ATL` | HOU 71.6% | 2/25 12:01 | HOU 119-111 |
+| `MEM`      | `LAL` | MEM 52.7% | 2/25 12:01 | MEM 110-105 |
+| `MIN`      | `SAC` | MIN 72.5% | 2/25 12:02 | MIN 112-105 |
+| `NOP`      | `PHI` | PHI 55.0% | 2/25 12:02 | PHI 111-110 |
+| `LAC`      | `DAL` | LAC 79.2% | 2/25 12:02 | LAC 121-112 |
 
 
 
