@@ -8,15 +8,15 @@
 
 | Total Games        | Games Predicted Correctly | Accuracy |
 |:-------------:|:-------------:|:-----:|
-| 83     | 54 | 65.1% |
+| 86     | 57 | 66.3% |
 
 ### 2.26.19 Forecast
 
 | Home        | Away           | Winner + %  | Prediction Timestamp | Real Winner |
 |:-------------:|:-------------:|:-----:|:-----:|:-------------:|
-| `NYK`      | `ORL` | NYK 62.2% | 2/26 8:11 | ORL |
-| `TOR`      | `BOS` | TOR 74.5% | 2/26 8:12 | DEN |
-| `DEN`      | `OKC` | DEN 65.7% | 2/26 8:12 | NYK |
+| `NYK`      | `ORL` | NYK 62.2% | 2/26 8:11 | NYK 108-103 |
+| `TOR`      | `BOS` | TOR 74.5% | 2/26 8:12 | TOR 118-95 |
+| `DEN`      | `OKC` | DEN 65.7% | 2/26 8:12 | DEN 121-112 |
 
 ### 2.25.19 Forecast
 
