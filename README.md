@@ -12,19 +12,19 @@
 
 ### 2.27.19 Forecast
 
-| Home        | Away           | Winner + %  | Prediction Timestamp | Real Winner |
-|:-------------:|:-------------:|:-----:|:-----:|:-------------:|
-| `CHO`      | `HOU` | HOU 53.0% | 2/26 22:43 | TBD |
-| `ATL`      | `MIN` | ATL 60.9% | 2/26 22:43 | TBD |
-| `BRK`      | `WAS` | BRK 65.0% | 2/26 22:44 | TBD |
-| `MIA`      | `GSW` | GSW 66.9% | 2/26 22:44 | TBD |
-| `MEM`      | `CHI` | MEM 71.8% | 2/26 22:44 | TBD |
-| `BOS`      | `POR` | POR 52.0% | 2/26 22:44 | TBD |
-| `SAS`      | `DET` | SAS 68.8% | 2/26 22:44 | TBD |
-| `DAL`      | `IND` | DAL 73.5% | 2/26 22:45 | TBD |
-| `UTA`      | `LAC` | UTA 52.1% | 2/26 22:45 | TBD |
-| `SAC`      | `MIL` | MIL 50.4% | 2/26 22:45 | TBD |
-| `LAL`      | `NOP` | NOP 52.8% | 2/26 22:45 | TBD |
+| Home        | Away           | Winner + %  | Prediction Timestamp | Real Winner | Notes |
+|:-------------:|:-------------:|:-----:|:-----:|:-------------:|:----:|
+| `CHO`      | `HOU` | HOU 53.0% | 2/26 22:43 | HOU 118-113 |
+| `ATL`      | `MIN` | ATL 60.9% | 2/26 22:43 | ATL 131-123 |
+| `BRK`      | `WAS` | BRK 65.0% | 2/26 22:44 | WAS 125-116 |
+| `MIA`      | `GSW` | GSW 66.9% | 2/26 22:44 | MIA 126-125 |(DWade hits miracle 3pt at buzzer) |
+| `MEM`      | `CHI` | MEM 71.8% | 2/26 22:44 | CHI 109-107 |
+| `BOS`      | `POR` | POR 52.0% | 2/26 22:44 | POR 97-92 |
+| `SAS`      | `DET` | SAS 68.8% | 2/26 22:44 | SAS 105-93 |
+| `DAL`      | `IND` | DAL 73.5% | 2/26 22:45 | DAL 110-101 |
+| `UTA`      | `LAC` | UTA 52.1% | 2/26 22:45 | UTA 111-105 |
+| `SAC`      | `MIL` | MIL 50.4% | 2/26 22:45 | MIL 141-140 |
+| `LAL`      | `NOP` | NOP 52.8% | 2/26 22:45 | LAL 125-119 |
 
 ### 2.26.19 Forecast
 
