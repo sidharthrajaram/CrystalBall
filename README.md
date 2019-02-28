@@ -8,7 +8,7 @@
 
 | Total Games        | Games Predicted Correctly | Accuracy |
 |:-------------:|:-------------:|:-----:|
-| 86     | 57 | 66.3% |
+| 97     | 64 | 66.0% |
 
 ### 2.27.19 Forecast
 
