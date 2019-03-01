@@ -8,19 +8,19 @@
 
 | Total Games        | Games Predicted Correctly | Accuracy |
 |:-------------:|:-------------:|:-----:|
-| 97     | 64 | 66.0% |
+| 103     | 66 | 64.1% |
 
 
 ### 2.28.19 Forecast
 
 | Home        | Away           | Winner + %  | Prediction Timestamp | Real Winner | Notes |
 |:-------------:|:-------------:|:-----:|:-----:|:-------------:|:----:|
-| `IND`      | `MIN` | MIN 51.3% | 2/27 23:56 | TBD |
-| `ORL`      | `GSW` | GSW 72.4% | 2/27 23:56 | TBD |
-| `NYK`      | `CLE` | NYK 64.0% | 2/27 23:57 | TBD |
-| `HOU`      | `MIA` | HOU 82.7% | 2/27 23:57 | TBD |
-| `OKC`      | `PHI` | PHI 62.4% | 2/27 23:58 | TBD |
-| `DEN`      | `UTA` | DEN 60.1% | 2/27 23:58 | TBD |
+| `IND`      | `MIN` | MIN 51.3% | 2/27 23:56 | IND 122-115 | 
+| `ORL`      | `GSW` | GSW 72.4% | 2/27 23:56 | ORL 103-96 | KD, Iggy out |
+| `NYK`      | `CLE` | NYK 64.0% | 2/27 23:57 | CLE 125-118 | K-Love back! |
+| `HOU`      | `MIA` | HOU 82.7% | 2/27 23:57 | HOU 121-118 |
+| `OKC`      | `PHI` | PHI 62.4% | 2/27 23:58 | PHI 108-104 | Joel, PG out |
+| `DEN`      | `UTA` | DEN 60.1% | 2/27 23:58 | UTA 111-104 |
 
 ### 2.27.19 Forecast
 
