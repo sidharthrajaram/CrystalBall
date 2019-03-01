@@ -11,6 +11,18 @@
 | 103     | 66 | 64.1% |
 
 
+### 3.1.19 Forecast
+
+| Home        | Away           | Winner + %  | Prediction Timestamp | Real Winner | Notes |
+|:-------------:|:-------------:|:-----:|:-----:|:-------------:|:----:|
+| `ATL`      | `CHI` | ATL 87.6% | 3/1 1:02 | TBD | 
+| `BRK`      | `CHO` | BRK 71.1% | 3/1 1:02 | TBD |
+| `TOR`      | `POR` | TOR 63.5% | 3/1 1:02 | TBD |
+| `BOS`      | `WAS` | BOS 52.6% | 3/1 1:03 | TBD |
+| `PHO`      | `NOP` | NOP 63.6% | 3/1 1:03 | TBD |
+| `SAC`      | `LAC` | LAC 62.5% | 3/1 1:03 | TBD |
+| `LAL`      | `MIL` | LAL 54.1% | 3/1 1:03 | TBD |
+
 ### 2.28.19 Forecast
 
 | Home        | Away           | Winner + %  | Prediction Timestamp | Real Winner | Notes |
