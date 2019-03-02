@@ -8,20 +8,20 @@
 
 | Total Games        | Games Predicted Correctly | Accuracy |
 |:-------------:|:-------------:|:-----:|
-| 103     | 66 | 64.1% |
+| 110     | 70 | 63.7% |
 
 
 ### 3.1.19 Forecast
 
 | Home        | Away           | Winner + %  | Prediction Timestamp | Real Winner | Notes |
 |:-------------:|:-------------:|:-----:|:-----:|:-------------:|:----:|
-| `ATL`      | `CHI` | ATL 87.6% | 3/1 1:02 | TBD | 
-| `BRK`      | `CHO` | BRK 71.1% | 3/1 1:02 | TBD |
-| `TOR`      | `POR` | TOR 63.5% | 3/1 1:02 | TBD |
-| `BOS`      | `WAS` | BOS 52.6% | 3/1 1:03 | TBD |
-| `PHO`      | `NOP` | NOP 63.6% | 3/1 1:03 | TBD |
-| `SAC`      | `LAC` | LAC 62.5% | 3/1 1:03 | TBD |
-| `LAL`      | `MIL` | LAL 54.1% | 3/1 1:03 | TBD |
+| `ATL`      | `CHI` | ATL 87.6% | 3/1 1:02 | CHI 168-161 | 
+| `BRK`      | `CHO` | BRK 71.1% | 3/1 1:02 | CHO 123-112 |
+| `TOR`      | `POR` | TOR 63.5% | 3/1 1:02 | TOR 119-117 |
+| `BOS`      | `WAS` | BOS 52.6% | 3/1 1:03 | BOS 107-96 |
+| `PHO`      | `NOP` | NOP 63.6% | 3/1 1:03 | NOP 130-116 |
+| `SAC`      | `LAC` | LAC 62.5% | 3/1 1:03 | LAC 116-109 |
+| `LAL`      | `MIL` | LAL 54.1% | 3/1 1:03 | MIL 131-120 |
 
 ### 2.28.19 Forecast
 
