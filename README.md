@@ -11,6 +11,22 @@
 | 110     | 70 | 63.7% |
 
 
+
+### 3.2.19 Forecast
+
+| Home        | Away           | Winner + %  | Prediction Timestamp | Real Winner | Notes |
+|:-------------:|:-------------:|:-----:|:-----:|:-------------:|:----:|
+| `IND`      | `ORL` | IND 76.0% | 3/2 16:47 | TBD | 
+| `CLE`      | `DET` | CLE 55.2% | 3/2 16:47 | TBD |
+| `MIA`      | `BRK` | BRK 54.3% | 3/2 16:47 | TBD |
+| `PHI`      | `GSW` | PHI 73.0% | 3/2 16:47 | TBD |
+| `DAL`      | `MEM` | DAL 78.2% | 3/2 16:47 | TBD |
+| `SAS`      | `OKC` | SAS 59.1% | 3/2 16:47 | TBD |
+| `DEN`      | `NOP` | DEN 60.7% | 3/2 16:47 | TBD |
+| `PHO`      | `LAL` | PHO 53.1% | 3/2 16:47 | TBD |
+| `UTA`      | `MIL` | UTA 65.8% | 3/2 16:47 | TBD |
+
+
 ### 3.1.19 Forecast
 
 | Home        | Away           | Winner + %  | Prediction Timestamp | Real Winner | Notes |
