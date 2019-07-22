@@ -42,3 +42,5 @@ def getTeamStats(team_id):
 if __name__ == "__main__":
     stuff = getTeamStats('POR')
     print(stuff[0])
+
+
