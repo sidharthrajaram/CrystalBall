@@ -1,5 +1,7 @@
 # nbaszn
 
+###### Update: 7/22/19 - Got a bit busy with some other stuff, couldn't run it till the end of the season. I'll try to automate some processes and get it running for the full 2019-2020 season.
+
 ###### working on documentation
 ###### trying to implement quarter-by-quarter and player stats
 
