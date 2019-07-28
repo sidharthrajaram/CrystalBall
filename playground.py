@@ -5,8 +5,8 @@ from team_scraper import getTeamStats
 
 
 # return arrays of length 42
-def get_team_data(team_id, header=False):
-    team_stats_tuple = getTeamStats(team_id)
+def get_team_data(team_id, year, header=False):
+    team_stats_tuple = getTeamStats(team_id, year)
 
     regular_stats_raw = np.array(team_stats_tuple[0].iloc[1,2:])
     regular_stats = list(map(lambda value: float(value), regular_stats_raw))
@@ -25,10 +25,10 @@ def get_team_data(team_id, header=False):
         return stats_full
 
 
-def get_all_teams_data(teams):
+def get_all_teams_data(teams, year):
     team_stats_array = []
     for team in teams:
-        team_stats = get_team_data(team)
+        team_stats = get_team_data(team, year)
         team_stats_array.append(team_stats)
         # print(team_stats)
         # print(len(team_stats))
@@ -41,18 +41,29 @@ def generate_dataframe(rows, header):
     return df
 
 
-def generate_teams_training_data(teams, header):
-    all_teams_data = get_all_teams_data(teams)
+def generate_teams_training_data(teams, header, year):
+    all_teams_data = get_all_teams_data(teams, year)
     training_df = generate_dataframe(all_teams_data, header)
     return training_df
 
 
+def clean_up_df(df):
+    cols = []
+    count = 0
+    for column in df.columns:
+        if column == 'eFG%':
+            cols.append('eFG%_' + str(count))
+            count += 1
+            continue
+        cols.append(column)
+    df.columns = cols
+    return df
+
+
 def feature_scaled_df(df):
     for column in df:
-        print(df[column])
-        # df[column] = df[column].apply(lambda x: x/df[column].max())
-        # print("Max {}: {}".format(column, df[column].max()))
-    # return df
+        df[column] = df[column].apply(lambda x: x/df[column].max())
+    return df
 
 
 def predict(X, W):
@@ -66,13 +77,18 @@ def train(X, Y, epochs, l_rate):
         h = predict(X, W)
         loss = h - Y
         error = np.sum(loss ** 2) / (2*m)
-        print("Epoch {}, Error: {}".format(epoch, error))
+        if epoch%1000 == 0 or epoch+1 == epochs:
+            print("Epoch {}, Error: {}".format(epoch, error))
         gradient = np.dot(X.T, loss) / m
         W_delta = l_rate * gradient
         W -= W_delta
     return W
 
 
+def predictWins(weights, X):
+    predictions = predict(X, weights)
+    # print(predictions)
+    return predictions
 
 
 if __name__ == '__main__':
@@ -80,46 +96,74 @@ if __name__ == '__main__':
     # set up
     FORECAST_FILE = 'data/teams_test.csv'
     teams_df = pd.read_csv(FORECAST_FILE)
-    teams = np.array(teams_df["Team"])
-    stat_header = get_team_data('POR', header=True)
+    all_teams = np.array(teams_df["Team"])
+    stat_header = get_team_data('POR', '2019', header=True)
 
-    training_df = generate_teams_training_data(teams, stat_header)
-    # print(training_df)
+    train_test_division = 45
+
+    full_df_2019 = generate_teams_training_data(all_teams, stat_header, '2019')
+    full_df_2018 = generate_teams_training_data(all_teams, stat_header, '2018')
+    years_dfs = [full_df_2019, full_df_2018]
+    full_df = pd.concat(years_dfs, ignore_index=True)
+    print(full_df)
+    print()
+
+    Y_df = full_df[['W']]
+    max_wins = np.amax(np.array(Y_df))
+    X_df = full_df[['PTS','TOV','eFG%','FTr','ORB','DRB','MOV','ORtg','DRtg','AST','BLK']]
+    X_df = clean_up_df(X_df)
+
+    # print(X_df)
+    # print()
+    # print(Y_df)
+    # everything scaled
+    scaled_X_df = feature_scaled_df(X_df)
+    scaled_Y_df = feature_scaled_df(Y_df)
+    # print(scaled_X_df)
+    # print()
+    # print(scaled_Y_df)
+    # print()
+    #
+    training_X_data = scaled_X_df.iloc[:train_test_division,:]
+    training_Y_data = scaled_Y_df.iloc[:train_test_division,:]
+    # training_team_names = all_teams[:train_test_division]
+
+    test_X_data = scaled_X_df.iloc[train_test_division:,:]
+    test_Y_data = scaled_Y_df.iloc[train_test_division:,:]
+    # test_team_names = all_teams[train_test_division:]
+
+    print("TRAINING DATA")
+    print(training_X_data)
+    print()
+    print(training_Y_data)
+    print()
+    #
+    # print("TESTING DATA")
+    # print(test_X_data)
+    # print()
+    # print(test_Y_data)
     # print()
 
-    # clean df's
-    Y_df = training_df['W']
-    X_df = training_df[['PTS','TOV','eFG%','FTr','ORB','DRB','MOV','ORtg','DRtg','AST','BLK']]
-    X_df.drop(X_df.columns[[3]], axis=1, inplace=True)
+    X = np.array(training_X_data)
+    Y = np.ravel(np.array(training_Y_data))
 
-    print(X_df)
-    print()
-    print(Y_df)
-    print()
-    feature_scaled_df(X_df)
-
-
-    # weights = train(X, Y, 1000, 0.01)
-
-
-
-    # FORECAST_FILE = 'data/teams.csv'
-    # teams_df = pd.read_csv(FORECAST_FILE)
-    # teams_df['EFG'] = (teams_df['FG'] + 0.5 * teams_df['3P']) / teams_df['FGA']
-    # teams_df['ASTOV'] = teams_df['AST'] / teams_df['TOV'] / 2
-    # teams_df['BLK2'] = teams_df['BLK'] / 400
-    #
-    # print(teams_df)
-    #
-    # X = np.array(teams_df.iloc[:, 25:])
-    # Y = np.array(teams_df['WINS'])
-    #
-    # weights = train(X, 50000, 0.1)
+    # print(X)
     # print()
-    # #
-    # milwaukee = np.array([0.53805422, 0.86008065, 1.2075])
-    # washington = np.array([0.53079735, 0.93327556, 0.9475])
-    #
-    # print(predict(milwaukee, weights))
-    # print(predict(washington, weights))
+    # print(Y)
+    input("Press enter to train weights")
+    print()
+
+    alpha = 0.20
+    epochs = 200000
+    weights = train(X, Y, epochs, alpha)
+
+    # testing
+    print()
+    test_X = np.array(test_X_data)
+    test_Y = np.ravel(np.array(test_Y_data))
+
+    # orlando...or mia
+    predictions = predictWins(weights, test_X)
+    for i in range(len(predictions)):
+        print("{} wins".format(predictions[i]*max_wins))
 

@@ -5,10 +5,9 @@ import re
 import urllib.request
 
 
-
-def getTeamStats(team_id):
+def getTeamStats(team_id, year):
     team = team_id.upper()
-    url = "https://www.basketball-reference.com/teams/" + team + "/2019.html"
+    url = "https://www.basketball-reference.com/teams/" + team + "/" + year + ".html"
     # print(url)
     # print()
 
