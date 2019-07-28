@@ -1,3 +1,6 @@
+# this was done to play around with regression ...
+# helped me determine which stats have great correlation with wins
+# ill tweak it a bit once the season starts, think i can predict total season wins based on a few games of performance.
 import pandas as pd
 import numpy as np
 
@@ -128,14 +131,12 @@ if __name__ == '__main__':
     # print(X_df)
     # print()
     # print(Y_df)
+
     # everything scaled
     scaled_X_df = feature_scaled_df(X_df)
     scaled_Y_df = feature_scaled_df(Y_df)
-    # print(scaled_X_df)
-    # print()
-    # print(scaled_Y_df)
-    # print()
-    #
+
+
     training_X_data = scaled_X_df.iloc[:train_test_division,:]
     training_Y_data = scaled_Y_df.iloc[:train_test_division,:]
     # training_team_names = all_teams[:train_test_division]
@@ -159,15 +160,14 @@ if __name__ == '__main__':
     X = np.array(training_X_data)
     Y = np.ravel(np.array(training_Y_data))
 
-    # print(X)
-    # print()
-    # print(Y)
     input("Press enter to train weights")
     print()
 
+    # training
     alpha = 0.20
     epochs = 200000
     weights = train(X, Y, epochs, alpha)
+
 
     # testing
     print()
@@ -177,7 +177,6 @@ if __name__ == '__main__':
     test_X = np.array(test_X_data)
     test_Y = np.ravel(np.array(test_Y_data))
 
-    # orlando...or mia
     predictions = predictWins(weights, test_X)
     for i in range(len(predictions)):
         print("{} wins".format(predictions[i]*max_wins))

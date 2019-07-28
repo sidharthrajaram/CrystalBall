@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 import re
 import urllib.request
 
-
+# retrieves table data and headers for a given nba team for a given year
 def getTeamStats(team_id, year):
     team = team_id.upper()
     url = "https://www.basketball-reference.com/teams/" + team + "/" + year + ".html"

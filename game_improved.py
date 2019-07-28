@@ -1,3 +1,6 @@
+# more efficient, better version of game_basic.py
+# will be used to predict game results each day
+
 import random
 from playground import get_team_data, generate_dataframe, clean_up_df
 
