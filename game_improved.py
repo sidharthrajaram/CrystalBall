@@ -37,7 +37,7 @@ def get_team_metric(team_id, year):
 
 
 # t1 is home team, t2 is away team, year parameters are strings
-def simulate(t1_year, t2_year, t1_id, t2_id, epochs=1000, home_variation_max=100, away_variation_max=75):
+def simulate(t1_year, t2_year, t1_id, t2_id, epochs=1000, home_variation_max=100, away_variation_max=85):
     print("Simulation Presets:")
     print("Epochs: {}".format(epochs))
     print("Home Team Variation Range Max: {}".format(home_variation_max))
