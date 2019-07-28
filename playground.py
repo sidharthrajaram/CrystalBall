@@ -49,11 +49,21 @@ def generate_teams_training_data(teams, header, year):
 
 def clean_up_df(df):
     cols = []
-    count = 0
+    efg_count = 0
+    tov_count = 0
+    ftfga_count = 0
     for column in df.columns:
         if column == 'eFG%':
-            cols.append('eFG%_' + str(count))
-            count += 1
+            cols.append('eFG%_' + str(efg_count))
+            efg_count += 1
+            continue
+        if column == 'TOV%':
+            cols.append('TOV%_' + str(tov_count))
+            tov_count += 1
+            continue
+        if column == 'FT/FGA':
+            cols.append('FT/FGA_' + str(ftfga_count))
+            ftfga_count += 1
             continue
         cols.append(column)
     df.columns = cols
@@ -99,14 +109,16 @@ if __name__ == '__main__':
     all_teams = np.array(teams_df["Team"])
     stat_header = get_team_data('POR', '2019', header=True)
 
-    train_test_division = 45
+    train_test_division = 70
 
     full_df_2019 = generate_teams_training_data(all_teams, stat_header, '2019')
     full_df_2018 = generate_teams_training_data(all_teams, stat_header, '2018')
-    years_dfs = [full_df_2019, full_df_2018]
+    full_df_2017 = generate_teams_training_data(all_teams, stat_header, '2017')
+
+    years_dfs = [full_df_2019, full_df_2018, full_df_2017]
     full_df = pd.concat(years_dfs, ignore_index=True)
-    print(full_df)
-    print()
+    # print(full_df)
+    # print()
 
     Y_df = full_df[['W']]
     max_wins = np.amax(np.array(Y_df))
@@ -159,6 +171,9 @@ if __name__ == '__main__':
 
     # testing
     print()
+    print(weights)
+    print()
+
     test_X = np.array(test_X_data)
     test_Y = np.ravel(np.array(test_Y_data))
 
