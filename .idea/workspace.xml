@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a99b1c20-c1f6-482a-88c1-141126889215" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/teams_over_time.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_improved.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_improved.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teams_over_time.py" beforeDir="false" afterPath="$PROJECT_DIR$/teams_over_time.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,28 +26,28 @@
         <counts>
           <entry key="csv" value="11" />
           <entry key="md" value="3" />
-          <entry key="py" value="21" />
+          <entry key="py" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSV" value="11" />
           <entry key="Markdown" value="3" />
-          <entry key="Python" value="21" />
+          <entry key="Python" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="15" />
           <entry key="md" value="976" />
-          <entry key="py" value="13016" />
+          <entry key="py" value="15507" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="976" />
           <entry key="PLAIN_TEXT" value="15" />
-          <entry key="Python" value="13016" />
+          <entry key="Python" value="15507" />
         </counts>
       </usages-collector>
     </session>
@@ -59,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/game_improved.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="18">
+              <caret line="38" column="37" lean-forward="true" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
                 <marker date="1564375138276" expanded="true" signature="214:219" ph="..." />
@@ -74,10 +72,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/teams_over_time.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            <state relative-caret-position="566">
+              <caret line="65" column="36" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
+                <marker date="1564388586021" expanded="true" signature="1927:1929" ph="..." />
               </folding>
             </state>
           </provider>
@@ -270,8 +269,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/playground.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="285">
+          <caret line="19" column="88" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="88" />
           <folding>
             <element signature="e#238#257#0" expanded="true" />
             <marker date="1564344017956" expanded="true" signature="1708:2264" ph="..." />
@@ -281,8 +280,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/game_improved.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="18">
+          <caret line="38" column="37" lean-forward="true" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
             <marker date="1564375138276" expanded="true" signature="214:219" ph="..." />
@@ -294,10 +293,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/teams_over_time.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        <state relative-caret-position="566">
+          <caret line="65" column="36" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
+            <marker date="1564388586021" expanded="true" signature="1927:1929" ph="..." />
           </folding>
         </state>
       </provider>
