@@ -28,7 +28,7 @@ def calculate_metric(team_df):
     ortg = 2 * team_df['ORtg'][0] / 116.0   # key
     drtg = team_df['DRtg'][0] / 116.0
 
-    team_metric = pts - tov + efg - efg_opp + ftr + orb + drb + mov + ast + blk + ortg - drtg
+    team_metric = 100*(pts - tov + efg - efg_opp + ftr + orb + drb + mov + ast + blk + ortg - drtg) / 9.0
     return team_metric
 
 
