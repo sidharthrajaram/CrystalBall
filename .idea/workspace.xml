@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a99b1c20-c1f6-482a-88c1-141126889215" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/teams_over_time.py" beforeDir="false" afterPath="$PROJECT_DIR$/teams_over_time.py" afterDir="false" />
-    </list>
+    <list default="true" id="a99b1c20-c1f6-482a-88c1-141126889215" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +12,7 @@
     <session id="-1582459077">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.3" value="2" />
@@ -26,14 +24,14 @@
         <counts>
           <entry key="csv" value="11" />
           <entry key="md" value="3" />
-          <entry key="py" value="22" />
+          <entry key="py" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSV" value="11" />
           <entry key="Markdown" value="3" />
-          <entry key="Python" value="22" />
+          <entry key="Python" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -54,29 +52,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/game_improved.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
+            <state relative-caret-position="-24">
               <caret line="38" column="37" lean-forward="true" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
                 <marker date="1564375138276" expanded="true" signature="214:219" ph="..." />
                 <marker date="1564375138276" expanded="true" signature="1151:1272" ph="..." />
                 <marker date="1564375138276" expanded="true" signature="2603:2606" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/teams_over_time.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
-              <caret line="65" column="36" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-                <marker date="1564388586021" expanded="true" signature="1927:1929" ph="..." />
               </folding>
             </state>
           </provider>
@@ -267,10 +252,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/teams_over_time.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="29" lean-forward="true" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <marker date="1564388586021" expanded="true" signature="1927:1929" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/playground.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="88" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="88" />
+        <state relative-caret-position="-1539">
+          <caret line="33" column="46" lean-forward="true" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
           <folding>
             <element signature="e#238#257#0" expanded="true" />
             <marker date="1564344017956" expanded="true" signature="1708:2264" ph="..." />
@@ -280,24 +276,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/game_improved.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
+        <state relative-caret-position="-24">
           <caret line="38" column="37" lean-forward="true" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
             <marker date="1564375138276" expanded="true" signature="214:219" ph="..." />
             <marker date="1564375138276" expanded="true" signature="1151:1272" ph="..." />
             <marker date="1564375138276" expanded="true" signature="2603:2606" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/teams_over_time.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="65" column="36" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-            <marker date="1564388586021" expanded="true" signature="1927:1929" ph="..." />
           </folding>
         </state>
       </provider>
