@@ -16,7 +16,22 @@ Notes:
 |:-------------:|:-------------:|:-----:|
 | 8     | 4 | 50.0% |
 
-### xx.xx.xx Forecast
+### 11.2.19 Forecast
+
+| Home        | Away           | Winner + %  | Prediction Timestamp | Real Winner | Notes |
+|:-------------:|:-------------:|:-----:|:-----:|:-------------:|:----:|
+| `OKC`      | `NOP` | OKC 91.1% | 11/2 18:15 | xx | xx |
+| `ORL`      | `DEN` | DEN 100.0% | 11/2 18:17 | xx | xx |
+| `DET`      | `BRK` | BRK 100.0% | 11/2 18:19 | xx | xx |
+| `MEM`      | `PHO` | PHO 100.0% | 11/2 18:19 | xx | xx |
+| `WAS`      | `MIN` | MIN 70.0% | 11/2 18:20 | xx | xx |
+| `MIL`      | `TOR` | MIL 60.6% | 11/2 18:20 | xx | xx |
+| `GSW`      | `CHO` | CHO 90.4% | 11/2 18:21 | xx | xx |
+| `POR`      | `PHI` | PHI 100.0% | 11/2 18:21 | xx | xx |
+
+
+
+### 11.1.19 Forecast
 
 | Home        | Away           | Winner + %  | Prediction Timestamp | Real Winner | Notes |
 |:-------------:|:-------------:|:-----:|:-----:|:-------------:|:----:|
