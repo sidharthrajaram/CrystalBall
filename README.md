@@ -14,7 +14,7 @@ Notes:
 
 | Total Games        | Games Predicted Correctly | Accuracy |
 |:-------------:|:-------------:|:-----:|
-| xx     | xx | xx.x% |
+| 8     | 4 | 50.0% |
 
 ### xx.xx.xx Forecast
 
