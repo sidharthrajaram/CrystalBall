@@ -16,6 +16,18 @@ Notes:
 |:-------------:|:-------------:|:-----:|
 | 16     | 11 | 68.8% |
 
+### 11.3.19 Forecast
+
+| Home        | Away           | Winner + %  | Prediction Timestamp | Real Winner | Notes |
+|:-------------:|:-------------:|:-----:|:-----:|:-------------:|:----:|
+| `IND`      | `CHI` | IND 99.9% | 11/3 16:10 | xx | xx |
+| `MIA`      | `HOU` | MIA 100.0% | 11/3 16:11 | xx | xx |
+| `NYK`      | `SAC` | NYK 100.0% | 11/3 16:12 | xx | xx |
+| `SAS`      | `LAL` | LAL 100.0% | 11/3 16:12 | xx | xx |
+| `CLE`      | `DAL` | DAL 100.0% | 11/3 16:13 | xx | xx |
+| `LAC`      | `UTA` | LAC 58.8% | 11/3 16:13 | xx | xx |
+
+
 ### 11.2.19 Forecast
 
 | Home        | Away           | Winner + %  | Prediction Timestamp | Real Winner | Notes |
@@ -28,7 +40,6 @@ Notes:
 | `MIL`      | `TOR` | MIL 60.6% | 11/2 18:20 | MIL | xx |
 | `GSW`      | `CHO` | CHO 90.4% | 11/2 18:21 | CHO | xx |
 | `POR`      | `PHI` | PHI 100.0% | 11/2 18:21 | PHI | xx |
-
 
 
 ### 11.1.19 Forecast
