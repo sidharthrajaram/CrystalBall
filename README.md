@@ -10,7 +10,7 @@ Notes:
 ###### playground.py was an exploratory script that determined which stats displayed the best correlation to wins
  
 
-### Total Results (season has not started yet)
+### Total Results
 
 | Total Games        | Games Predicted Correctly | Accuracy |
 |:-------------:|:-------------:|:-----:|
