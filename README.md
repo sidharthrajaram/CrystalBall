@@ -14,18 +14,18 @@ Notes:
 
 | Total Games        | Games Predicted Correctly | Accuracy |
 |:-------------:|:-------------:|:-----:|
-| 16     | 11 | 68.8% |
+| 22     | 16 | 72.7% |
 
 ### 11.3.19 Forecast
 
 | Home        | Away           | Winner + %  | Prediction Timestamp | Real Winner | Notes |
 |:-------------:|:-------------:|:-----:|:-----:|:-------------:|:----:|
-| `IND`      | `CHI` | IND 99.9% | 11/3 16:10 | xx | xx |
-| `MIA`      | `HOU` | MIA 100.0% | 11/3 16:11 | xx | xx |
-| `NYK`      | `SAC` | NYK 100.0% | 11/3 16:12 | xx | xx |
-| `SAS`      | `LAL` | LAL 100.0% | 11/3 16:12 | xx | xx |
-| `CLE`      | `DAL` | DAL 100.0% | 11/3 16:13 | xx | xx |
-| `LAC`      | `UTA` | LAC 58.8% | 11/3 16:13 | xx | xx |
+| `IND`      | `CHI` | IND 99.9% | 11/3 16:10 | IND | xx |
+| `MIA`      | `HOU` | MIA 100.0% | 11/3 16:11 | MIA | xx |
+| `NYK`      | `SAC` | NYK 100.0% | 11/3 16:12 | SAC | xx |
+| `SAS`      | `LAL` | LAL 100.0% | 11/3 16:12 | LAL | xx |
+| `CLE`      | `DAL` | DAL 100.0% | 11/3 16:13 | DAL | xx |
+| `LAC`      | `UTA` | LAC 58.8% | 11/3 16:13 | LAC | xx |
 
 
 ### 11.2.19 Forecast
