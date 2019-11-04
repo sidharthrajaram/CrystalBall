@@ -16,9 +16,22 @@ Notes:
 |:-------------:|:-------------:|:-----:|
 | 22     | 16 | 72.7% |
 
+
+### 11.4.19 Forecast
+
+| Home        | Away           | Predicted Winner + %  | Prediction Timestamp | Real Winner | Notes |
+|:-------------:|:-------------:|:-----:|:-----:|:-------------:|:----:|
+| `WAS`      | `DET` | DET 62.7% | 11/4 13:36 | xx | xx |
+| `BRK`      | `NOP` | BRK 100.0% | 11/4 13:36 | xx | xx |
+| `MEM`      | `HOU` | HOU 100.0% | 11/4 13:36 | xx | xx |
+| `MIN`      | `MIL` | MIL 100.0% | 11/4 13:36 | xx | xx |
+| `PHO`      | `PHI` | PHI 83.3% | 11/4 13:37 | xx | xx |
+| `GSW`      | `POR` | POR 100.0% | 11/4 13:38 | xx | xx |
+
+
 ### 11.3.19 Forecast
 
-| Home        | Away           | Winner + %  | Prediction Timestamp | Real Winner | Notes |
+| Home        | Away           | Predicted Winner + %  | Prediction Timestamp | Real Winner | Notes |
 |:-------------:|:-------------:|:-----:|:-----:|:-------------:|:----:|
 | `IND`      | `CHI` | IND 99.9% | 11/3 16:10 | IND | xx |
 | `MIA`      | `HOU` | MIA 100.0% | 11/3 16:11 | MIA | xx |
@@ -30,7 +43,7 @@ Notes:
 
 ### 11.2.19 Forecast
 
-| Home        | Away           | Winner + %  | Prediction Timestamp | Real Winner | Notes |
+| Home        | Away           | Predicted Winner + %  | Prediction Timestamp | Real Winner | Notes |
 |:-------------:|:-------------:|:-----:|:-----:|:-------------:|:----:|
 | `OKC`      | `NOP` | OKC 91.1% | 11/2 18:15 | OKC | xx |
 | `ORL`      | `DEN` | DEN 100.0% | 11/2 18:17 | DEN | xx |
@@ -44,7 +57,7 @@ Notes:
 
 ### 11.1.19 Forecast
 
-| Home        | Away           | Winner + %  | Prediction Timestamp | Real Winner | Notes |
+| Home        | Away           | Predicted Winner + %  | Prediction Timestamp | Real Winner | Notes |
 |:-------------:|:-------------:|:-----:|:-----:|:-------------:|:----:|
 | `BRK`      | `HOU` | HOU 100.0% | 11/1 13:20 | BRK | xx |
 | `IND`      | `CLE` | CLE 89.2% | 11/1 13:21 | IND | xx |
