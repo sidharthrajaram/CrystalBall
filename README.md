@@ -14,19 +14,31 @@ Notes:
 
 | Total Games        | Games Predicted Correctly | Accuracy |
 |:-------------:|:-------------:|:-----:|
-| 22     | 16 | 72.7% |
+| 28     | 19 | 67.9% |
+
+
+### 11.5.19 Forecast
+
+| Home        | Away           | Predicted Winner + %  | Prediction Timestamp | Real Winner | Notes |
+|:-------------:|:-------------:|:-----:|:-----:|:-------------:|:----:|
+| `CHO`      | `IND` | IND 100.0% | 11/5 17:11 | xx | xx |
+| `CLE`      | `BOS` | BOS 100.0% | 11/5 17:11 | xx | xx |
+| `ATL`      | `SAS` | SAS 100.0% | 11/5 17:11 | xx | xx |
+| `OKC`      | `ORL` | OKC 100.0% | 11/5 17:11 | xx | xx |
+| `CHI`      | `LAL` | LAL 100.0% | 11/5 17:12 | xx | xx |
+| `DEN`      | `MIA` | MIA 100.0% | 11/5 17:12 | xx | xx |
 
 
 ### 11.4.19 Forecast
 
 | Home        | Away           | Predicted Winner + %  | Prediction Timestamp | Real Winner | Notes |
 |:-------------:|:-------------:|:-----:|:-----:|:-------------:|:----:|
-| `WAS`      | `DET` | DET 62.7% | 11/4 13:36 | xx | xx |
-| `BRK`      | `NOP` | BRK 100.0% | 11/4 13:36 | xx | xx |
-| `MEM`      | `HOU` | HOU 100.0% | 11/4 13:36 | xx | xx |
-| `MIN`      | `MIL` | MIL 100.0% | 11/4 13:36 | xx | xx |
-| `PHO`      | `PHI` | PHI 83.3% | 11/4 13:37 | xx | xx |
-| `GSW`      | `POR` | POR 100.0% | 11/4 13:38 | xx | xx |
+| `WAS`      | `DET` | DET 62.7% | 11/4 13:36 | WAS | xx |
+| `BRK`      | `NOP` | BRK 100.0% | 11/4 13:36 | BRK | xx |
+| `MEM`      | `HOU` | HOU 100.0% | 11/4 13:36 | HOU | xx |
+| `MIN`      | `MIL` | MIL 100.0% | 11/4 13:36 | MIL | xx |
+| `PHO`      | `PHI` | PHI 83.3% | 11/4 13:37 | PHO | no embiid |
+| `GSW`      | `POR` | POR 100.0% | 11/4 13:38 | GSW | eric paschall goes off |
 
 
 ### 11.3.19 Forecast
