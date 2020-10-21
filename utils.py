@@ -33,9 +33,6 @@ def get_all_teams_data(teams, year):
     for team in teams:
         team_stats = get_team_data(team, year)
         team_stats_array.append(team_stats)
-        # print(team_stats)
-        # print(len(team_stats))
-        # print()
     return team_stats_array
 
 

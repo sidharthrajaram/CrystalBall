@@ -2,7 +2,7 @@
 # will be used to predict game results each day
 
 import random
-from playground import get_team_data, generate_dataframe, clean_up_df
+from utils import get_team_data, generate_dataframe, clean_up_df
 
 
 def getTeamDf(team_id, year):

@@ -1,11 +1,15 @@
-from game_improved import getTeamDf
 import seaborn as sns
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 import random
+from utils import get_team_data, generate_dataframe
 
-SCORE_SCALE = 0.4
+
+def getTeamDf(team_id, year):
+    df_header = get_team_data(team_id, year, header=True)
+    df_row = [get_team_data(team_id, year)]
+    return generate_dataframe(df_row, df_header)
 
 def team_score(team_id, year):
     df = getTeamDf(team_id, year)
@@ -65,13 +69,13 @@ def test(games, year, results, epochs=100000):
 
 if __name__ == "__main__":
 
+    # CORWIN discovery 
     # year = "2020"
     # years = ["2015", "2017", "2020"]
-    teams = ["ATL", "BOS", "BRK", "CHO", "CHI", "CLE", "DAL", "DEN",
-                "DET", "GSW", "HOU", "IND", "LAC", "LAL", "MEM", "MIA",
-                "MIL", "MIN", "NOP", "NYK", "OKC", "ORL", "PHI", "PHO",
-                "POR", "SAC", "SAS", "TOR", "UTA", "WAS"]
-
+    # teams = ["ATL", "BOS", "BRK", "CHO", "CHI", "CLE", "DAL", "DEN",
+    #             "DET", "GSW", "HOU", "IND", "LAC", "LAL", "MEM", "MIA",
+    #             "MIL", "MIN", "NOP", "NYK", "OKC", "ORL", "PHI", "PHO",
+    #             "POR", "SAC", "SAS", "TOR", "UTA", "WAS"]
     # frames = []
     # for year in years:
     #     print()
@@ -79,11 +83,9 @@ if __name__ == "__main__":
     #     for team in teams:
     #         print(team)
     #         frames.append(getTeamDf(team, year))
-
     # teams = pd.concat(frames, ignore_index=True)
     # teams['PREDICT'] = 0.76*teams['ORtg'] - 0.87*teams['DRtg'] + teams['MOV'] + 0.68*teams['2P%'] + 0.66*teams['DRB'] + teams['SOS']
     # teams = (teams-teams.min())/(teams.max()-teams.min())
-
     # teams['WINS'] = teams['W']
     # teams = teams.drop('W', 1)
     # teams = teams.drop('L', 1)
@@ -91,23 +93,10 @@ if __name__ == "__main__":
     # teams = teams.drop('PL', 1)
     # teams = teams.drop('SRS', 1)
     # teams = teams.drop('MOV', 1)
-
     # teams = teams.sort_values(by=['WINS'])
     # print(teams)
     # ax = sns.heatmap(teams.corr(), annot=True, vmin=0, vmax=1)
     # plt.show()
-
-    # t1 = team_score("CHI", "1996")
-    # t2 = team_score("GSW", "2017")
-    # t3 = team_score("HOU", "2018")
-    # print(t1)
-    # print(t2)
-    # print(t3)
-
-
-    # for team in teams:
-    #     print("{}: {}".format(team, team_score(team, "2020")))
-
 
     games = [['TOR', 'NOP'], 
             ['LAC', 'LAL'],
@@ -140,15 +129,6 @@ if __name__ == "__main__":
                 'UTA', 'DEN', 'PHO', 'ATL', 'MIL', 
                 'LAC', 'BOS', 'MIN', 'BRK', 'CHI',
                 'DAL', 'WAS', 'DEN', 'POR', 'LAL']
-
-    # t1_year = input("Year of Home Team: ")
-    # t1_id = input("ID of Home Team: ")
-    # t2_year = input("Year of Away Team: ")
-    # t2_id = input("ID of Away Team: ")
-    # print()
-    # win_team_year, win_team_id, win_team_percent = simulate_game(t1_year, t2_year, t1_id, t2_id)
-    # print()
-    # print("The {} {} team has a {}% chance of winning.".format(win_team_year, win_team_id, win_team_percent))
 
     # simulate(games, '2020')
     test(games, "2020", results)
