@@ -22,14 +22,13 @@ def getTeamStats(team_id, year):
     tables = soup.findAll('table')
 
     test_df = pd.read_html(str(tables[3]))[0]
-#    print("PEEP THE {}".format(len(test_df.index)))
 
     if len(test_df.index) == 2:
         stats_table = tables[2]
         misc_table = tables[3]
     else:
-        stats_table = tables[1]
-        misc_table = tables[2]
+        stats_table = tables[3]
+        misc_table = tables[4]
 
     stats_df = pd.read_html(str(stats_table))[0]
     misc_df = pd.read_html(str(misc_table))[0]
@@ -37,12 +36,10 @@ def getTeamStats(team_id, year):
     stats_header = stats_df.columns.values.tolist()
     misc_header = misc_df.columns.values.tolist()
 
-#    print(stats_df)
-
     return stats_df, stats_header, misc_df, misc_header
 
 if __name__ == "__main__":
-    stuff = getTeamStats('POR')
+    stuff = getTeamStats('GSW', '2020')
     print(stuff[2])
 
 
