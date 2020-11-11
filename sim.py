@@ -16,19 +16,22 @@ def team_score(team_id, year):
     score = float(0.76*df['ORtg'] - 0.87*df['DRtg'] + df['MOV'] + 10.0*df['2P%'] + 0.66*df['DRB'] + df['SOS'])
     return score
 
-def simulate_game(t1_year, t2_year, t1_id, t2_id, epochs=100000, home_variation_max=100, away_variation_max=85):
-    # print("Simulation Presets:")
-    # print("Epochs: {}".format(epochs))
-    # print("Home Team Variation Range Max: {}".format(home_variation_max))
-    # print("Away Team Variation Range Max: {}".format(away_variation_max))
-    # print()
+def simulate_game(t1_year, t2_year, t1_id, t2_id, epochs=100000, home_variation_max=100, away_variation_max=85, display_info=False):
+    
+    if display_info:
+        print("Simulation Presets:")
+        print("Epochs: {}".format(epochs))
+        print("Home Team Variation Range Max: {}".format(home_variation_max))
+        print("Away Team Variation Range Max: {}".format(away_variation_max))
+        print()
 
     t1_metric = team_score(t1_id, t1_year)
     t2_metric = team_score(t2_id, t2_year)
 
-    # print('{} has a CORWIN score of {}'.format(t1_id, t1_metric))
-    # print('{} has a CORWIN score of {}'.format(t2_id, t2_metric))
-    # print()
+    if display_info:
+        print('{} has a CORWIN score of {}'.format(t1_id, t1_metric))
+        print('{} has a CORWIN score of {}'.format(t2_id, t2_metric))
+        print()
     t1_wins = 0
     t2_wins = 0
 
@@ -43,7 +46,8 @@ def simulate_game(t1_year, t2_year, t1_id, t2_id, epochs=100000, home_variation_
         else:
             t2_wins +=1
 
-    # print('In {} simulated games, {}: {} wins, {}: {} wins'.format(epochs, t1_id, t1_wins, t2_id, t2_wins))
+    if display_info:
+        print('In {} simulated games, {}: {} wins, {}: {} wins'.format(epochs, t1_id, t1_wins, t2_id, t2_wins))
     if t1_wins > t2_wins:
         return t1_year, t1_id, float(t1_wins)/float(epochs/100), t2_year, t2_id
     else:
