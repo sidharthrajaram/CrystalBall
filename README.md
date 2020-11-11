@@ -1,7 +1,6 @@
+![Cover](cover.png?raw=true "Cover")
 
-# nbaszn (2019-2020)
-
-Notes:
+Notes from the 2019-2020 Season:
 
 ##### game_improved.py is the new and improved version of the game outcome predictor
 ###### game_improved.py allows user to pit teams from different years against each other
