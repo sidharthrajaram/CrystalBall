@@ -16,7 +16,7 @@ def team_score(team_id, year):
     score = float(0.76*df['ORtg'] - 0.87*df['DRtg'] + df['MOV'] + 10.0*df['2P%'] + 0.66*df['DRB'] + df['SOS'])
     return score
 
-def simulate_game(t1_year, t2_year, t1_id, t2_id, epochs=100000, home_variation_max=100, away_variation_max=85, display_info=False):
+def simulate_game(t1_year, t2_year, t1_id, t2_id, epochs=100000, home_variation_max=100, away_variation_max=100, display_info=False):
     
     if display_info:
         print("Simulation Presets:")
