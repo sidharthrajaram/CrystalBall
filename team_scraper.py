@@ -22,13 +22,17 @@ def getTeamStats(team_id, year):
     tables = soup.findAll('table')
 
     test_df = pd.read_html(str(tables[3]))[0]
-
-    if len(test_df.index) == 2:
-        stats_table = tables[2]
-        misc_table = tables[3]
-    else:
-        stats_table = tables[3]
-        misc_table = tables[4]
+    
+    stats_index = 2
+    misc_index = 3
+    for i in range(len(tables)):
+        if len(pd.read_html(str(tables[i]))[0].index) == 8:
+            stats_index = i
+            misc_index = i+1
+    
+    print(len(pd.read_html(str(tables[stats_index]))[0].index))
+    stats_table = tables[stats_index]
+    misc_table = tables[misc_index]
 
     stats_df = pd.read_html(str(stats_table))[0]
     misc_df = pd.read_html(str(misc_table))[0]

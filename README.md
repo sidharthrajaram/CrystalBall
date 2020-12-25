@@ -19,8 +19,8 @@ Notes for the 2020-2021 Season:
 
 | "Home"        | "Away"           | Predicted Winner + %  | Prediction Timestamp | Real Winner | Notes |
 |:-------------:|:-------------:|:-----:|:-----:|:-------------:|:----:|
-| `MIA`      | `NOP` | --- | --- | xx | xx |
-| `MIL`      | `GSW` | --- | --- | xx | xx |
-| `BOS`      | `BRK` | --- | --- | xx | xx |
-| `LAL`      | `DAL` | --- | --- | xx | xx |
-| `DEN`      | `LAC` | --- | --- | xx | xx |
+| `MIA`      | `NOP` | NOP 100.0% | 12/24/2020 18:43 | xx | xx |
+| `MIL`      | `GSW` | MIL 100.0% | 12/24/2020 18:43 | xx | xx |
+| `BOS`      | `BRK` | BRK 100.0% | 12/24/2020 18:43 | xx | xx |
+| `LAL`      | `DAL` | DAL 53.397% | 12/24/2020 19:04 | xx | xx |
+| `DEN`      | `LAC` | LAC 78.898% | 12/24/2020 18:43 | xx | xx |
