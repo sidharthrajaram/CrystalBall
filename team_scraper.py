@@ -30,7 +30,7 @@ def getTeamStats(team_id, year):
             stats_index = i
             misc_index = i+1
     
-    print(len(pd.read_html(str(tables[stats_index]))[0].index))
+    # print(len(pd.read_html(str(tables[stats_index]))[0].index))
     stats_table = tables[stats_index]
     misc_table = tables[misc_index]
 
