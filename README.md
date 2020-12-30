@@ -45,7 +45,7 @@ Notes for the 2020-2021 Season:
 | `SAS`      | `TOR` | SAS 100.0% | 12/26/2020 14:02 | SAS | xx |
 | `UTA`      | `MIN` | UTA 100.0% | 12/26/2020 14:02 | MIN | xx |
 | `SAC`      | `PHO` | SAC 98.945% | 12/26/2020 14:02 | SAC | xx |
-| `POR`      | `HOU` | xx | xx | No data on HOU yet | xx |
+| `POR`      | `HOU` | xx | xx | xx | No data on HOU yet |
 
 ### 12.25.20 Forecast
 
