@@ -13,22 +13,22 @@ Notes for the 2020-2021 Season:
 
 | Total Games        | Games Predicted Correctly | Accuracy |
 |:-------------:|:-------------:|:-----:|
-| 13     | 10 | 76.9% |
+| 23     | 15 | 65.2% |
 
 ### 12.29.20 Forecast
 
 | "Home"        | "Away"           | Predicted Winner + %  | Prediction Timestamp | Real Winner | Notes |
 |:-------------:|:-------------:|:-----:|:-----:|:-------------:|:----:|
-| `CLE`      | `NYK` | CLE 100.0% | 12/29/2020 16:18 | xx | xx |
-| `PHI`      | `TOR` | PHI 100.0% | 12/29/2020 16:18 | xx | xx |
-| `DET`      | `GSW` | DET 100.0% | 12/29/2020 16:18 | xx | xx |
-| `IND`      | `BOS` | IND 100.0% | 12/29/2020 16:18 | xx | xx |
-| `WAS`      | `CHI` | WAS 100.0% | 12/29/2020 16:18 | xx | xx |
-| `MIA`      | `MIL` | MIA 100.0% | 12/29/2020 16:18 | xx | xx |
-| `OKC`      | `ORL` | ORL 88.36% | 12/29/2020 16:18 | xx | xx |
-| `PHO`      | `NOP` | PHO 100.0% | 12/29/2020 16:18 | xx | xx |
-| `SAC`      | `DEN` | SAC 98.96% | 12/29/2020 16:18 | xx | xx |
-| `LAC`      | `MIN` | LAC 59.49% | 12/29/2020 16:18 | xx | xx |
+| `CLE`      | `NYK` | CLE 100.0% | 12/29/2020 16:18 | NYK | xx |
+| `PHI`      | `TOR` | PHI 100.0% | 12/29/2020 16:18 | PHI | xx |
+| `DET`      | `GSW` | DET 100.0% | 12/29/2020 16:18 | GSW | xx |
+| `IND`      | `BOS` | IND 100.0% | 12/29/2020 16:18 | BOS | xx |
+| `WAS`      | `CHI` | WAS 100.0% | 12/29/2020 16:18 | CHI | xx |
+| `MIA`      | `MIL` | MIA 100.0% | 12/29/2020 16:18 | MIL | xx |
+| `OKC`      | `ORL` | ORL 88.36% | 12/29/2020 16:18 | ORL | xx |
+| `PHO`      | `NOP` | PHO 100.0% | 12/29/2020 16:18 | PHO | xx |
+| `SAC`      | `DEN` | SAC 98.96% | 12/29/2020 16:18 | SAC | xx |
+| `LAC`      | `MIN` | LAC 59.49% | 12/29/2020 16:18 | LAC | xx |
 
 
 
