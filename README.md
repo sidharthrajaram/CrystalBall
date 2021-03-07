@@ -1,5 +1,7 @@
 ![Cover](cover.png?raw=true "Cover")
 
+## Crystalball is a statistical method of predicting outcomes of NBA games. Accuracy has varied from 64% to 68% over the last couple of years that it has been operational. Feel free to predict NBA games using the simple script as outlined below.
+
 Notes for the 2020-2021 Season:
 
 ##### No home or away dis/advantages due to no in-person attendance at games (COVID-19)
@@ -14,6 +16,8 @@ Notes for the 2020-2021 Season:
 | Total Games        | Games Predicted Correctly | Accuracy |
 |:-------------:|:-------------:|:-----:|
 | 23     | 15 | 65.2% |
+
+#### Update: I stopped writing up the daily predictions in the readme, but let me know if that's something you want to see.
 
 ### 12.29.20 Forecast
 
